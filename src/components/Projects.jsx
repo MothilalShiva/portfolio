@@ -5,6 +5,7 @@ import p5 from "../assets/p5.png";
 import p6 from "../assets/p6.png";
 import predictt from "../assets/predictt.png";
 import m from "../assets/m.jpg";
+import sw from"../assets/sw.png";
 import MiniProjectCard from "./ui/MiniProjectCard";
 import { default as blob } from "../assets/blob.svg";
 import data from "../data";
@@ -79,7 +80,7 @@ interface."
 
         <MiniProjectCard
           github="https://github.com/MothilalShiva/CraveIt-Swiggy-clone"
-          picture="https://github-production-user-asset-6210df.s3.amazonaws.com/104366720/366116375-087a02fc-a52e-4bf2-94f7-7da74e6ea446.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250211%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250211T155524Z&X-Amz-Expires=300&X-Amz-Signature=dc557b961323ac83940caea4e02cd6bd2b84e56f3d1b41b7228b09e8ef6517b0&X-Amz-SignedHeaders=host"
+          picture={sw}
           title="Craveit (Swiggy Clone)"
           description="Redesigned core features of an online food delivery platform, enhancing restaurant browsing, cart management, and user authentication with a responsive and user-friendly interface."
           
